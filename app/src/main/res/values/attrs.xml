@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyToolbar">
+        <attr name="hide_left_button" format="boolean"/>
+        <attr name="hide_right_button" format="boolean"/>
+        <attr name="left_icon" format="reference|color" />
+        <attr name="right_icon" format="reference|color" />
+        <attr name="left_text" format="string"/>
+        <attr name="left_text_size" format="dimension"/>
+        <attr name="left_text_color" format="dimension"/>
+        <attr name="right_text" format="string"/>
+        <attr name="right_text_size" format="dimension"/>
+        <attr name="right_text_color" format="dimension"/>
+    </declare-styleable>
+</resources>
