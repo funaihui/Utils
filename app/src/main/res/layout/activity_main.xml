@@ -7,13 +7,16 @@
     android:orientation="vertical">
 
 
-    <com.wizardev.apackage.view.MyToolbar
+    <!--<com.wizardev.apackage.view.MyToolbar
         android:id="@+id/toolbar"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
         app:hide_left_button="true"
         app:hide_right_button="true"
-        android:layout_height="?attr/actionBarSize" />
+        app:left_text=""
+        app:right_text=""
+        android:elevation="4dp"
+        android:layout_height="?attr/actionBarSize" />-->
     <Button
         android:id="@+id/show_dialog"
         android:layout_width="wrap_content"
