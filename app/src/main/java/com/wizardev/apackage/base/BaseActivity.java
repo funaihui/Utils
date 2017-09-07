@@ -15,13 +15,13 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getToolbar();
+        setupToolbar();
         setContentView(requestView(inflateView()));
     }
-
+    //加载布局文件
     public abstract int inflateView();
-
-    public abstract MyToolbar getToolbar();
+    //设置toolbar
+    public abstract MyToolbar setupToolbar();
     /**
      * @param layoutId
      *      1代表无占位图，0代表有展位图

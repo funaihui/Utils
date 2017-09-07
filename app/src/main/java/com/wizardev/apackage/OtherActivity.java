@@ -18,7 +18,7 @@ public class OtherActivity extends BaseActivity {
     }
 
     @Override
-    public MyToolbar getToolbar() {
+    public MyToolbar setupToolbar() {
         toolbar = MyToolbar.getInstance(this, -1, "另一個", "");
         return toolbar;
     }

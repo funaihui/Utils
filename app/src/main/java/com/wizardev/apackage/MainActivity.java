@@ -38,8 +38,8 @@ public class MainActivity extends BaseActivity {
     }
 
     @Override
-    public MyToolbar getToolbar() {
-        toolbar = MyToolbar.getInstance(this, R.drawable.ic_launcher_background, "测试", "下一个");
+    public MyToolbar setupToolbar() {
+        toolbar = MyToolbar.getInstance(this, R.drawable.ic_arrow_back_24dp, "测试", "下一个");
         toolbar.setRightTextColor(android.R.color.holo_blue_bright);
         return toolbar;
     }
